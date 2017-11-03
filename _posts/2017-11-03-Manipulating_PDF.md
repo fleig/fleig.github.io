@@ -7,7 +7,7 @@ To join PDF files use the following commands
 
 # Example1
 
-```sh
+```shell
 qpdf --empty --pages input1.pdf input2.pdf -- output.pdf
 ```
 
@@ -17,7 +17,7 @@ qpdf --empty --pages input1.pdf input2.pdf -- output.pdf
 
 # Example2
 
-```sh
+```shell
 qpdf --empty --pages input1.pdf 1-5 input2.pdf 2-6 -- output.pdf
 ```
 
