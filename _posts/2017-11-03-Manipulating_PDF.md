@@ -32,6 +32,7 @@ gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/screen -dNOPAUSE -d
 ```
 
 -dPDFSETTINGS=
+
 | Parameter | Quality |   Size  | Size(MB) |
 |:---------:|:-------:|:-------:|:--------:|
 |  /screen  |  Lower  | Smaller |    4.5   |
