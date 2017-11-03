@@ -3,9 +3,9 @@ layout: post
 title: Manipulating PFD via command-line!
 ---
 
-# To join PDF files use the following commands
+## To join PDF files use the following commands
 
-## Example1
+### Example1
 
 ```bash
 $ qpdf --empty --pages input1.pdf input2.pdf -- output.pdf
@@ -13,7 +13,7 @@ $ qpdf --empty --pages input1.pdf input2.pdf -- output.pdf
 
 *--empty* is to create a blank PDF
 
-## Example2
+#### Example2
 
 ```bash
 $ qpdf --empty --pages input1.pdf 1-5 input2.pdf 2-6 -- output.pdf
@@ -23,9 +23,9 @@ the number after the corresponding PDF, indicates which pages are going to save 
 
 ---
 
-# To reduce PDF filesize use the following commands
+## To reduce PDF filesize use the following commands
 
-## Example1
+#### Example1
 
 ```bash
 gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/screen -dNOPAUSE -dQUIET -dBATCH -sOutputFile=output.pdf input.pdf
